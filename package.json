@@ -1,38 +1,10 @@
 {
   "name": "node-masker",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "node-masker is a javascript mask library make in TypeScript",
-  "main": "build/index.js",
+  "main": "index.js",
   "repository": "git@github.com:marcelodosreis/node-masker.git",
   "author": "marcelodosreis <marcelohrpaulo13@gmail.com>",
   "license": "MIT",
-  "keywords": [
-    "mask",
-    "react-mask",
-    "react"
-  ],
-  "scripts": {
-    "build": "rm -rf build && tsc -p . && cp package_build.json README.md ./build && mv ./build/package_build.json ./build/package.json",
-    "test": "jest --no-cache --coverage",
-    "test:coveralls": "jest --coverage && coveralls < coverage/lcov.info"
-  },
-  "devDependencies": {
-    "@types/jest": "^26.0.24",
-    "@types/node": "^16.11.1",
-    "@typescript-eslint/eslint-plugin": "^4.18.0",
-    "@typescript-eslint/parser": "^4.18.0",
-    "eslint": "^7.22.0",
-    "eslint-config-airbnb-base": "^14.2.1",
-    "eslint-config-prettier": "^8.1.0",
-    "eslint-plugin-import": "^2.22.1",
-    "eslint-plugin-prettier": "^3.3.1",
-    "prettier": "^2.2.1",
-    "ts-jest": "^26.5.4",
-    "ts-node": "^9.1.1",
-    "typescript": "^4.2.3"
-  },
-  "dependencies": {
-    "coveralls": "^3.1.0",
-    "jest": "^26.6.3"
-  }
+  "keywords": ["mask", "react-mask", "react", "node-mask"]
 }
